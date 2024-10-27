@@ -23,4 +23,13 @@ int main()
     atlag /= N_ELEMENTS;
     std::cout << "Atlag: " << atlag << std::endl;
     return 0;
+
+    int osszeg() {
+        int ossz = 0;
+        for (int i = 1; i < N_ELEMENTS; i++) {
+            ossz += i;
+
+        }
+        std::cout << "Az érték:" + ossz;
+    }
 }
